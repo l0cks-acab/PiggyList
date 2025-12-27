@@ -51,12 +51,23 @@ PiggyList is the ultimate Discord bot that bridges the gap between your Discord 
    ```
 
 2. **Configure your bot:**
-   - Copy `.env.example` to `.env`
+   - Create a `.env` file in the project root
    - Add your Discord bot token and client ID:
-     ```
+     ```env
      DISCORD_TOKEN=your_bot_token_here
      DISCORD_CLIENT_ID=your_client_id_here
      ```
+   
+   **Example `.env` file:**
+   ```env
+   # Discord Bot Token
+   # Get your token from https://discord.com/developers/applications
+   DISCORD_TOKEN=your_bot_token_here
+   
+   # Discord Client ID (Application ID)
+   # Found in Discord Developer Portal under General Information
+   DISCORD_CLIENT_ID=your_client_id_here
+   ```
 
 3. **Invite to Discord:**
    - Go to [Discord Developer Portal](https://discord.com/developers/applications)
