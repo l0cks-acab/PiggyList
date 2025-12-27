@@ -1,0 +1,12 @@
+{
+  "minecraft": {
+    "host": "",
+    "port": 25575,
+    "password": ""
+  },
+  "discord": {
+    "linkedRoleId": "",
+    "adminRoleId": ""
+  }
+}
+

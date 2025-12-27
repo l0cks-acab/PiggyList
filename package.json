@@ -1,0 +1,30 @@
+{
+  "name": "piggylist-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot using discord.js, dotenv, and rcon for Minecraft server integration",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "minecraft"
+  ],
+  "author": "herbs.acab",
+  "license": "MIT",
+  "engines": {
+    "node": "23.1.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "rcon": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}
+
